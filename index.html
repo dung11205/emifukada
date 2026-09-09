@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nguyên - Personal Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">DUNG.</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hello">HELLO, I'M</p>
+
+            <h1>Nguyên</h1>
+
+            <h2>Computer Engineering Student</h2>
+
+            <p class="description">
+                I'm a Computer Engineering student who loves programming,
+                software development and technology.
+            </p>
+
+            <div class="buttons">
+                <a href="#about" class="btn primary">About Me</a>
+                <a href="#contact" class="btn secondary">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <div class="avatar">
+                N
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <h3>I'm a Computer Engineering Student</h3>
+
+                <p>
+                    I'm currently studying Computer Engineering at Dong A University.
+                    I enjoy learning programming, building applications and
+                    exploring new technologies.
+                </p>
+
+                <p>
+                    My goal is to become a professional software engineer
+                    and work on interesting technology projects.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="info">
+                    <span>Name</span>
+                    <strong>Nguyên</strong>
+                </div>
+
+                <div class="info">
+                    <span>Major</span>
+                    <strong>Computer Engineering</strong>
+                </div>
+
+                <div class="info">
+                    <span>University</span>
+                    <strong>Dong A University</strong>
+                </div>
+
+                <div class="info">
+                    <span>Location</span>
+                    <strong>Vietnam</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+
+        <div class="section-title">
+            <p>WHAT I KNOW</p>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills">
+
+            <div class="skill-card">
+                <h3>C / C++</h3>
+                <p>Programming & Algorithms</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Programming & Data Processing</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Web Development</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Flutter</h3>
+                <p>Mobile Application Development</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Node.js</h3>
+                <p>Backend Development</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Git / GitHub</h3>
+                <p>Version Control</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <p>MY WORK</p>
+            <h2>Projects</h2>
+        </div>
+
+        <div class="projects">
+
+            <div class="project-card">
+
+                <div class="project-number">01</div>
+
+                <h3>Smart Parking</h3>
+
+                <p>
+                    A smart parking system using ESP32,
+                    sensors and IoT technology.
+                </p>
+
+                <span>ESP32 · IoT · Sensors</span>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">02</div>
+
+                <h3>Task Manager</h3>
+
+                <p>
+                    A task management website with
+                    Node.js and MongoDB.
+                </p>
+
+                <span>Node.js · Express · MongoDB</span>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">03</div>
+
+                <h3>Flutter Application</h3>
+
+                <p>
+                    A mobile application using Flutter
+                    and Firebase.
+                </p>
+
+                <span>Flutter · Firebase</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Let's work together.</h3>
+
+                <p>
+                    If you want to contact me, feel free to
+                    send me a message.
+                </p>
+
+                <p>📧 Email: dungnguyen@gmail.com</p>
+                <p>💻 GitHub: github.com/tidungnhapsa
+            </div>
+
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your name"
+                    autocomplete="name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your email"
+                    autocomplete="email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Your message"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn primary">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Nguyên. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- SUPABASE SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script>
+        const SUPABASE_URL = "https://brtpodvdnwsjqhfsqqgy.supabase.co";
+        const SUPABASE_ANON_KEY = "sb_publishable_8f2W4kss3YXairlLZmkcZg_MtPq9B9S";
+
+        // Tạo instance duy nhất với tên supabaseClient để tránh trùng lặp
+        const supabaseClient = window.supabase.createClient(
+            SUPABASE_URL,
+            SUPABASE_ANON_KEY
+        );
+    </script>
+
+    <!-- JS của dự án -->
+    <script src="script.js"></script>
+
+</body>
+</html>
